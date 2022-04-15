@@ -54,11 +54,11 @@ This server will be listening on `port:3000`
 
 `http://localhost:3000/api/images?filename=YOUR_FILE_NAME&height=HEIGHT_VALUE&width=WIDTH_VALUE`
 
-| Parameter  | Type           | Description                                |
-| ---------- | -------------- | ------------------------------------------ |
-| `filename` | `Content Cell` | image name without extension ex: car       |
-| `width`    | `number`       | Image width and must be a positive number  |
-| `height`   | `number`       | Image height and must be a positive number |
+| Parameter  | Type     | Description                                |
+| ---------- | -------- | ------------------------------------------ |
+| `filename` | `string` | image name without extension ex: car       |
+| `width`    | `number` | Image width and must be a positive number  |
+| `height`   | `number` | Image height and must be a positive number |
 
 ### List of images available for usage.
 
